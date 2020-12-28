@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(bg_edited.jpg);
+    background-size: cover;
+}
+nav{
+    position: relative;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 700;
+    font-size: 35px;
+    color:#FFF;
+}
+
+
+nav #sliderbottom{
+    left: 0;
+    position: absolute;
+    height: 4px;
+    width: 0;
+    bottom: -8px;
+    background: #FFF;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+nav #slidertop{
+    left: 0;
+    position: absolute;
+    height: 4px;
+    width: 0;
+    top: -8px;
+    background: #FFF;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+

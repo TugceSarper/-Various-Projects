@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paralax Effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="img-Box">
+                <img src="Image.jpg" alt="">
+            </div>
+            <div class="content-Box">
+                <h2>New York City</h2>
+                <p>New York City (NYC), often called simply New York, is the most
+                    populous city in the United States. With an estimated 2019
+                    population of 8,336,817 distributed over about 302.6 square
+                    miles (784 km2), New York City is also the most densely
+                    populated major city in the United States.</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".box"), {
+            max: 25,
+            speed: 1000
+        });
+    </script>
+</body>
+</html>
